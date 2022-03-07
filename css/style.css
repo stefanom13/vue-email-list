@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.arrayMail{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: 20px;
+}
+
+.arrayMail h3{
+    padding: 10px 0px;
+}
+.arrayMail ul li{
+    border: 1px solid black;
+    padding: 5px;
+    list-style: none;
+}
+
+li:hover{
+    background-color:lightcoral;
+}
